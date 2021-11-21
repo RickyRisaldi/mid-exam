@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>tabel</title>
+    </head>
+    <body> 
+        <!-- membuat table (tr baris)(td kolom) -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+        <hr><hr>
+        <!-- tabel complex atau tabel banyak data -->
+        <table border="1">
+            <!-- thead adalah tabel header -->
+            <!-- tabel memiliki atribut yaitu (border,cellspacing,cellpadding,collspan.rowspan) -->
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>kolom 1</th>
+                    <th>kolom 2</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <th>baris 1</th>
+                        <th>baris 1, kolom 1</th>
+                        <th>barus 1, kolom 2</th>
+                    </tr>
+                    <tr>
+                        <th>baris 2</th>
+                        <th>baris 2, kolom 1</th>
+                        <th>baris 2, kolom 2</th>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <hr><hr><hr>
+        <!-- tabel colspan menggabungkan cell horizontal  -->
+        <!-- sedangkan rowspan untuk menggabungkan barus -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+        <hr><hr><hr>
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">rowspan 3</td>
+                <td colspan="2">colspan2</td>
+            </tr>
+            <tr>
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+        <hr><hr>
+        <table border="1" cellspacing="0" cellpading="5">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td colspan="2" rowspan=" 2"></td>
+                <td>2,4</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,4</td>
+            </tr>
+            <tr>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+            </tr>
+        </table>
+    </body>
+    </html>

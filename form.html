@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <!-- tag form mempunyai elemen -->
+        <!-- input mempunyai type (text,password,radio,checkbox)-->
+        <!-- textarea -->
+        <!-- select -->
+        <!-- button -->
+        <!-- label -->
+        <hr>
+        <!-- input -->
+        <table border="1" cellspacing="0" cellpading="5">
+        <form action="">
+            <tr>
+                <td colspan="2" ><center>Data Diri</center></td>
+            </tr>
+        <tr>
+            <td><label for="username">USERNAME :</label></td>
+            <td><input type="text" name="wanwan" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="pw">PASSWORD :</label></td>
+            <td><input type="password" name="password" id="pw"></td>
+        </tr>
+        <tr>
+            <td> <label for="Jenis Kelamin">Jenis Kelamin :</label></td>
+            <td> <input type="radio"id="pria" name="jenis kelamin"><label for="pria">pria</label>
+                <input type="radio"id="perempuan" name="jenis kelamin"><label for="perempuan">perempuan</label></td>
+        </tr>
+        <tr>
+            <td><label for="hobby">Hobby :</label></td>
+            <td> <input type="checkbox" name="Hobby" id="menyanyi"><label for="menyanyi">Menyanyi</label>
+                <input type="checkbox" name="Hobby" id="badminton"><label for="badminton">badminton</label>
+                <input type="checkbox" name="Hobby" id="olahraga"><label for="olahraga">olahrag</label></td>
+        </tr>
+        <tr>
+            <td><label for="text">Keluh Kesah :</label></td>
+            <td><textarea name="" id="text" cols="15" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="ktk">Kota Kelahiran :</label></td>
+            <td>  
+                <select name="ktk" id="ktk">
+                    <option value="Bali">Bali</option>
+                    <option value="jakarta">jakarta</option>
+                    <option value="bandung">bandung</option>
+                </select></td>
+        </tr>
+        <tr>
+            <td colspan="2"><center><button type="button">kirim</button></center></td>
+        </tr>
+    </form>
+</table>
+    </body>
+</html>
